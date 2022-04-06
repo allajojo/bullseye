@@ -41,9 +41,14 @@ class MainBoardViewController: UIViewController {
 
         //  esli igra tolko nachinaetsya
         
+        
         round = round + 1
         roundLabel.text = ("раунд: \(round)")
-    
+        
+        if round == 10 {
+            setUp()
+            
+        }
         
                
         
@@ -87,6 +92,9 @@ class MainBoardViewController: UIViewController {
         // 3. obnulit ochki
         score = 0
         scoreLabel.text = "очки:" + String(score)
+        // round dolzhen bit raven 0
+        round = 0
+        roundLabel.text = ("раунд: \(round)")
         
                
     }
