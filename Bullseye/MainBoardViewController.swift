@@ -13,7 +13,6 @@ class MainBoardViewController: UIViewController {
     @IBOutlet weak var slider: UISlider!
     @IBOutlet weak var taskLabel: UILabel!
     @IBOutlet weak var scoreLabel: UILabel!
-    
     @IBOutlet weak var roundLabel: UILabel!
     
     
