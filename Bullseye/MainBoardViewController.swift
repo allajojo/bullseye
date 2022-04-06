@@ -17,11 +17,11 @@ class MainBoardViewController: UIViewController {
     @IBOutlet weak var roundLabel: UILabel!
     
     
-    var round: Int = 1
+    
     var guessingNumber: Int = Int.random(in: 1...100)
     // chislo kotoroe nado ugadat
     
-    
+    var round: Int = 1
     
     var score: Int = 0
     // obshee kolichestvo ochkov igroka
@@ -39,31 +39,37 @@ class MainBoardViewController: UIViewController {
     }
 
     @IBAction func didTapSelectButton(_ sender: Any) {
+
+        //  esli igra tolko nachinaetsya
         
-        //zadacha
-        // 1prochitat chisli is slidera
+        round = round + 1
+        roundLabel.text = ("раунд: \(round)")
+    
+        
+               
+        
+        
+            //zadacha
+        // 1prochitat chisla is slidera
         let sliderValue: Float = slider.value
         // 2 perevesti eto chislo v int
         let sliderValueInt: Int = Int(sliderValue)
         // 3 sravnit dva chisla i esli oni sovpadayut , to vivesti  v konsol informaciyu ob etom
-        
-        
         let isValueEquals = sliderValueInt == guessingNumber
         if isValueEquals {
             print("вы угадали число")
             score = score + 1
             scoreLabel.text = String("очки: \(score)")
         }else {
-            print("вы выбрали  число \(sliderValueInt)")
+            print("вы выбрали число  \(sliderValueInt)")
         
         }
         
         updateGuessingNumber()
-        
-        round = round + 1
-        roundLabel.text = "раунд: \(round)"
-    }
     
+       
+    }
+
     @IBAction func didTapTryAgain(_ sender: Any) {
         print("попробуйте еще раз")
         setUp()
@@ -82,6 +88,8 @@ class MainBoardViewController: UIViewController {
         // 3. obnulit ochki
         score = 0
         scoreLabel.text = "очки:" + String(score)
+        
+               
     }
     func updateGuessingNumber() {
         guessingNumber = Int.random(in: 1...100 )

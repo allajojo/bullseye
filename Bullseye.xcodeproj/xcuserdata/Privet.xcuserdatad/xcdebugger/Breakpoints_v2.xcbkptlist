@@ -3,4 +3,114 @@
    uuid = "40C8B134-167A-4E17-86CB-2D6474A18E81"
    type = "1"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "67B053A0-0E22-485E-9F48-C1DE2B838BB0"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Bullseye/MainBoardViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "MainBoardViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "67B053A0-0E22-485E-9F48-C1DE2B838BB0 - b044c83a13348958"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Bullseye.MainBoardViewController.roundLabel.getter : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "Bullseye"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Privet/Desktop/Bullseye/Bullseye/MainBoardViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "67B053A0-0E22-485E-9F48-C1DE2B838BB0 - 89a6c8d28706e554"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Bullseye.MainBoardViewController.roundLabel.setter : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "Bullseye"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Privet/Desktop/Bullseye/Bullseye/MainBoardViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "155">
+               </Location>
+               <Location
+                  uuid = "67B053A0-0E22-485E-9F48-C1DE2B838BB0 - e3a8cdad56f5e3a5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Bullseye.MainBoardViewController.roundLabel.modify : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "Bullseye"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Privet/Desktop/Bullseye/Bullseye/MainBoardViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "65">
+               </Location>
+               <Location
+                  uuid = "67B053A0-0E22-485E-9F48-C1DE2B838BB0 - aa8e33ad092bf8f1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Bullseye.MainBoardViewController.roundLabel.modify : Swift.Optional&lt;__C.UILabel&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "Bullseye"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Privet/Desktop/Bullseye/Bullseye/MainBoardViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "80">
+               </Location>
+               <Location
+                  uuid = "67B053A0-0E22-485E-9F48-C1DE2B838BB0 - 27c0772a59aee770"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Bullseye.MainBoardViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; Bullseye.MainBoardViewController"
+                  moduleName = "Bullseye"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Privet/Desktop/Bullseye/Bullseye/MainBoardViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "671">
+               </Location>
+               <Location
+                  uuid = "67B053A0-0E22-485E-9F48-C1DE2B838BB0 - 9e8d8d7e8e591355"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Bullseye.MainBoardViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Bullseye.MainBoardViewController&gt;"
+                  moduleName = "Bullseye"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Privet/Desktop/Bullseye/Bullseye/MainBoardViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "612">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>
